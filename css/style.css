@@ -1,0 +1,132 @@
+body {
+  margin-top:60px;
+  background-color: #f3f3f3;
+}
+
+article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-height: 1em; }
+
+.story { 
+  height: 400px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin: 0 auto;
+  border-top: 0px solid rgba(255,255,255,0.3);
+  border-bottom: 0px solid rgba(0,0,0,0.4);
+  box-shadow: 0 0 0px rgba(0,0,0,0.8);
+}
+
+#first { background: url(../images/Juta.jpg) 50% 0 no-repeat; }
+#second { background: url(../images/MandelaBridge.jpg) 50% 0 no-repeat; }
+#fourth { background: url(../images/Success.jpg) 50% 0 no-repeat; }
+#third { background: url(../images/Grove.jpg) 50% 0 no-repeat; }
+#theend { background: url(../images/puckered.png) 50% bottom no-repeat; }
+
+/* Introduction */
+#first .smashinglogo { background: url(../images/smashing-logo.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article p,
+#first article a { color: #ccc; }
+#first article a { text-decoration: underline; }
+#first article a:hover { color: #fff; }
+
+/* Background Only */
+#second { padding: 50px 0;}
+#second article { background: url(../images/grain.png) repeat #333; color: #fff; width: 445px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second article p { margin-bottom: 25px; }
+#second article a { color: #ff0;}
+
+/* Photograph */
+#third article {  background: url(../images/grain.png) repeat #333; color: #fff; padding: 10px 20px; margin: 100px 0 0 60%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#third .photograph { background: url(../images/photo.png) transparent 40% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#third article p { width: 300px; margin-bottom: 25px; }
+
+/* HTML5 Video */
+#fourth article {  margin-left: 10%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#fourth article p { width: 300px; margin: 50px 0; }
+#fourth video { position: fixed; left: 50%; box-shadow: 0 0 25px rgba(0,0,0,0.7); z-index: 1;}
+
+/* The End */
+#theend .byebye { background: url(../images/theend.png) 40% 100px no-repeat fixed; height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+.navbar-inner {
+  min-height: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #ffffff;
+  background-image:none;
+  background-repeat: repeat-x;
+  border: 1px solid #d4d4d4;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f97750;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #777777;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.navbar-fixed-top .navbar-inner,
+.navbar-static-top .navbar-inner {
+  -webkit-box-shadow:none;
+  -moz-box-shadow:none;
+  box-shadow:none;
+}
+
+.some-space {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+.section-content {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.side-content {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.side-list {
+  list-style: none;
+}
+
+.highlighted-orange {
+  background-color: #f97750;
+  color: white;
+}
+
+.highlighted-pink {
+  background-color: #FF5E99;
+  color: white;
+}
+
+.highlighted-blue {
+  background-color: #3ec3e3;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+}
