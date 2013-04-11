@@ -47,7 +47,7 @@ $(document).ready(function(){
 				}
 				
 				// Put together our final background position
-				var coords = '50% '+ (yPos*1.4) + 'px';
+				var coords = '100% '+ (yPos*1.4) + 'px';
 
 				// Move the background
 				$self.css({ backgroundPosition: coords });
