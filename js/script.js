@@ -21,6 +21,8 @@ $(document).ready(function(){
 		$(this).data('speed', $(this).attr('data-speed'));
 	});
 
+	// The place
+
     $("#infra").click(function () {
         $("#thePlaceText").text("Braamfontein has an almost embarrassing abundance of infrastructure. Numerous property developers together with the City of Johannesburg (CoJ) have, over the past few years, started the process of refurbishing countless local buildings.The transportation infrastructure is the best on the continent. Broadband services are also set to explode, with all the major telco’s and the CoJ laying down fibre in and around Braamfontein.");
         $("#titleDiv").text("Infrastructure");
@@ -45,6 +47,30 @@ $(document).ready(function(){
         $("#thePlaceText").text("The national and local governments have several department head offices located within Braamfontein and nearby, and both have several programmes aimed at significant investment in building skills, generating jobs and creating new organisations in the IT field. These investments are set to grow as the Government looks to the ICT sector as a significant source of future economic growth and job creation through the National Development Plan.");
         $("#titleDiv").text("Government");
     });
+
+    // Where we're going and how
+
+    $("#enabling").click(function () {
+        $("#vision_mission_text").text("Enabling an environment of transparent open collaboration across the industry from startups to SMME’s to established local and international IT corporations through community focused and driven knowledge sharing events.");
+        $("#vision_mission_title").text("Enabling");
+    });
+    $("#promoting").click(function () {
+        $("#vision_mission_text").text("Promoting open co-operative competition by acknowledging and celebrating our previous industry heros and providing the platforms to connect them to the next generation.");
+        $("#vision_mission_title").text("Promoting");
+    });
+    $("#building").click(function () {
+        $("#vision_mission_text").text("Building the bridges/links into the more established clusters located within the area ");
+        $("#vision_mission_title").text("Building");
+    });
+    $("#nurturing").click(function () {
+        $("#vision_mission_text").text("Nurturing the talent and skills development from within the local universities and leveraging the research generated.");
+        $("#vision_mission_title").text("Nurturing");
+    });
+    $("#partnering").click(function () {
+        $("#vision_mission_text").text("Partnering with government to position local ICT companies generating thought leaderships and creating new products and services more competitively globally, by proactively addressing exchange controls, Income Tax, Intellectual Property (IP) Laws and Investment Taxation and Advisory services laws.");
+        $("#vision_mission_title").text("Partnering");
+    });
+
 	
 	// For each element that has a data-type attribute
 	$('section[data-type="background"]').each(function(){
@@ -72,7 +98,7 @@ $(document).ready(function(){
 				}
 				
 				// Put together our final background position
-				var coords = '100% '+ (yPos*1.4) + 'px';
+				var coords = '100% '+ (yPos*0.5) + 'px';
 
 				// Move the background
 				$self.css({ backgroundPosition: coords });

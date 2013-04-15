@@ -6,7 +6,7 @@ body {
 article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-height: 1em; }
 
 .story { 
-  height: 400px;
+  height: 500px;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -18,11 +18,11 @@ article h2 { font-family: 'Lobster Two'; font-size: 60px; margin: 25px 0; line-h
   box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
-#first { background: url(../images/MandelaBridge.jpg) 50% 0 no-repeat; background-size: 100%; }
-#second { background: url(../images/Juta.jpg) 50% 0 no-repeat; background-size: 100%;}
+#first { background: url(../images/large/mandelabridge.jpg) 10% 0 no-repeat; background-size: 100%; }
+#second { background: url(../images/large/collaboration.jpg) 50% 0 no-repeat; background-size: 100%;}
 #fourth { background: url(../images/Success.jpg) 50% 0 no-repeat; background-size: 100%; }
-#third { background: url(../images/Grove.jpg) 50% 0 no-repeat; background-size: 100%; }
-#theend { background: url(../images/puckered.png) 50% bottom no-repeat; background-size: 100%; }
+#third { background: url(../images/large/lamunu.jpg) 50% 0 no-repeat; background-size: 100%; }
+#theend { background: url(../images/large/lamunu.jpg) 50% bottom no-repeat; background-size: 100%; }
 
 /* Introduction */
 #first .smashinglogo { background: url(../images/smashing-logo.png) 50% 100px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
